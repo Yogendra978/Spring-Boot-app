@@ -33,7 +33,7 @@ public class ProductController {
 	
 	
 	
-	//http://localhost:8080/api/products/create
+	//http://localhost:8080/api/products/create/id
 	@PostMapping("/create/{cid}")
 	@ResponseBody
 	public Product createProduct(@RequestBody Product product,@PathVariable int cid) {
