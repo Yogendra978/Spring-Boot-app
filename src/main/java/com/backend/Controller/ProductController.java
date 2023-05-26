@@ -29,9 +29,9 @@ public class ProductController {
 
 	@Autowired
 	private ProductServices productServices;
-	private List<Product> productByPage;
 	
 	
+
 	
 	//http://localhost:8080/api/products/create/id
 	@PostMapping("/create/{cid}")
